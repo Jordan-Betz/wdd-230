@@ -76,9 +76,9 @@ footer {
     align-items: center;
 }
 
-.active {
+/* .active {
     background-color: brown;
-}
+} */
 
 .nav-link {
     text-align: center;
@@ -87,6 +87,10 @@ footer {
     height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.nav-link:hover {
+    background-color: brown;
 }
 
 .nav-link a {
