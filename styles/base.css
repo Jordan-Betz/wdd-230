@@ -3,7 +3,6 @@
     font-family: Roboto;
 }
 body {
-    height: 100vh;
     margin: 0px;
 }
 
@@ -15,12 +14,22 @@ header {
     justify-content: center;
 }
 
+nav {
+    background-color: darkred;
+    text-align: right;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* main.dark {
+    background-color: black;
+    color: white;
+} */
 
 h1 {
     font-size: 26px;
@@ -41,7 +50,6 @@ h2 {
 }
 
 footer {
-    bottom: 0;
     background-color: darkred;
     text-align: center;
     padding: 20px;
@@ -51,10 +59,12 @@ footer {
 .profile-image {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: auto;
     margin-right: 20px;
     height: 100px;
     width: 75px;
     box-shadow: 0px 0px 10px;
+    color: black;
 }
 
 .profile-name {
@@ -66,14 +76,22 @@ footer {
 }
 
 .nav-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: none;
     margin-top: 0;
     padding: 0;
     background-color: black;
     height: 100%;
-    align-items: center;
+    border-bottom: solid 1px white;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
 }
 
 /* .active {
@@ -113,6 +131,32 @@ footer {
 }
 
 /* ID Selectors */
+#darkmode-toggle {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    height: 40px;
+    width: 40px;
+}
+
+#nav-toggle {
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#nav-toggle::before {
+    content: "☰";
+}
+
+#nav-toggle.open::before {
+    content: "❌";
+}
 
 #copyright {
     color: white;
