@@ -1,0 +1,260 @@
+/* HTML Selectors */
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #337ca0;
+    color: white;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: inherit;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #337ca0;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* Class Selectors */
+.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #60E1E0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.events-section {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.weather-section {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.events-weather-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.events-weather-section h2 {
+    border-bottom: 1px solid gray;
+}
+
+.single-spotlight {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: lightgray;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.single-spotlight p {
+    text-align: right;
+}
+
+.single-spotlight div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ID Selectors */
+#header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+}
+
+#header-title {
+
+}
+
+#nav-toggle {
+    text-align: center;
+    color: white;
+    background-color: #337ca0;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#nav-toggle::before {
+    content: "☰";
+}
+
+#nav-toggle.open::before {
+    content: "A";
+    color: transparent;
+    background-color: transparent;
+    background-image: url('../images/x-symbol.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nav-list {
+    display: none;
+    padding: 0px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#nav-list.open {
+    display: flex;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    background-image: url('../images/Helena-City-1024x656.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+#call-action {
+    font-size: 26px;
+    color: white;
+    background-color: rgb(96, 225, 224, .6);
+    margin: auto;
+    box-shadow: 0px 0px 5px 5px rgb(96, 225, 224, .6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#spotlights {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spotlights h2 {
+    color: #18445c;
+}
+
+#footer-address-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-address {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#footer-address h4 {
+    margin: 0;
+}
+
+#footer-address p {
+    margin: 0;
+}
+
+#footer-contact {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-contact p {
+    margin: 0;
+}
+
+#footer-project-details {
+    border-top: 1px solid #60E1E0;
+    padding-top: 10px;
+    color: yellow;
+}
+
+#footer-project-details p {
+    margin: 0;
+}
+
+#copyright {
+
+}
+
+#lastModified {
+
+}
