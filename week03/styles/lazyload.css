@@ -1,0 +1,52 @@
+/* HTML Selectors */
+body {
+
+}
+
+header {
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: .25;
+    }
+    50% {
+        opacity: .5;
+    }
+    75% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+
+}
+
+/* Class Selectors */
+
+/* ID Selectors */
