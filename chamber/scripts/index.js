@@ -5,7 +5,7 @@ document.getElementById("copyright").innerHTML = `<p>&copy; ${copyDate} Helena C
 lastModDate = document.lastModified;
 document.getElementById("lastModified").textContent = `Last Modification: ${lastModDate}`;
 
-// Hamburer navigation
+// Hamburger navigation
 const hamburgerNav = document.getElementById('nav-toggle');
 const navigation = document.getElementById('nav-list');
 

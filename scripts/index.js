@@ -1,4 +1,4 @@
-// Hamburer navigation
+// Hamburger navigation
 const hamburgerNav = document.getElementById('nav-toggle');
 const navigation = document.querySelector('.nav-list');
 
