@@ -20,9 +20,13 @@
 </head>
 <body>
     <header>
-        <img class="profile-image" src="images/jordan-profile.jpg" alt="profile">
+        <picture class="profile-picture">
+            <img class="profile-image" src="images/jordan-profile.webp" alt="profile">
+        </picture>
         <span class="profile-name">Jordan Betz</span>
-        <img id="darkmode-toggle" src="images/darkmode.png" alt="Darkmode Toggle">
+        <picture id="darkmode-picture">
+            <img id="darkmode-toggle" src="images/darkmode.webp" alt="Darkmode Toggle">
+        </picture>
     </header>
     <nav>
         <button id="nav-toggle"></button>
@@ -34,8 +38,17 @@
         </ul>
     </nav>
     <main>
+        <div id="hero-picture">
+            <picture>
+                <source media="(max-width:640px)" srcset="images/reno-temple-hero-mobile.webp">
+                <img src="images/reno-temple-hero-large.webp" alt="Reno Temple">
+            </picture>
+            <div id="hero-label">
+                <p>Reno Nevada Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
+        <section class="learning-card">
             <h2>Learning Activities</h2>
             <ul class="activity-list">
                 <li class="activity-list-item">Week 01:&nbsp;<a href="week01/holygrail.html">Layout</a>&nbsp;|&nbsp;<a href="week01/media-query.html">Media Query</a>&nbsp;|&nbsp;<a href="https://codepen.io/Jordan-Betz/pen/qBwvbaw">Js Pen</a></li>
@@ -46,12 +59,21 @@
                 <li class="activity-list-item">Week 06:&nbsp;<a href="#"></a><a href="#"></a><a href="#"></a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="info-card">
             <h2>Information</h2>
-            <h4>Placeholder</h4>
-            <h4>Placeholder</h4>
-            <h4>Placeholder</h4>
+            <p>76F - Sunshine Placeholder</p>
+            <p><strong>Visit Count: </strong><span id="visit-count"></span></p>
         </section>
+        <iframe 
+            id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87734.13994540108!2d-112.09809469661126!3d46.59332836938311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343510fedc7db4d%3A0x214c1d71e3fdf714!2sHelena%2C%20MT!5e0!3m2!1sen!2sus!4v1716912089659!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </main>
     <footer>
         <p id="copyright"></p>

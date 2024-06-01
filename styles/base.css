@@ -25,6 +25,8 @@ main {
     grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* main.dark {
@@ -57,9 +59,13 @@ footer {
 }
 
 /* Class Selectors */
-.profile-image {
+.profile-picture {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: auto;
+}
+
+.profile-image {
     margin-left: auto;
     margin-right: 20px;
     height: 100px;
@@ -88,6 +94,7 @@ footer {
 .dark {
     background-color: black;
     color: white;
+    box-shadow: none !important;
 }
 
 .open {
@@ -117,10 +124,17 @@ footer {
     color: white;
 }
 
-.card {
+.learning-card {
     border: 2px solid darkgray;
     border-radius: 4px;
     margin: 5px;
+}
+
+.info-card {
+    border: 2px solid darkgray;
+    border-radius: 4px;
+    margin: 5px;
+    text-align: center;
 }
 
 .activity-list {
@@ -132,11 +146,14 @@ footer {
 }
 
 /* ID Selectors */
-#darkmode-toggle {
-    cursor: pointer;
+#darkmode-picture { /* darkmode picture element */
     margin-top: 10px;
     margin-right: 10px;
     margin-left: auto;
+}
+
+#darkmode-toggle {
+    cursor: pointer;
     height: 40px;
     width: 40px;
 }
@@ -157,6 +174,36 @@ footer {
 
 #nav-toggle.open::before {
     content: "❌";
+}
+
+#hero-picture {
+    position: relative;
+}
+
+#hero-picture img {
+    width: 100%;
+    height: auto;
+}
+
+#hero-label {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#hero-label p {
+    color: black;
+    font-size: 26px;
+    font-family: Verdana;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 0;
+}
+
+#map {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #copyright {
