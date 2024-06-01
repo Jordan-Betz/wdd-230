@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <meta property="og:title" content="Helena Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://helenamt.sfo3.digitaloceanspaces.com/2020/08/Say-Hello-2800x1200-1-2800x1200.jpg">
+    <meta property="og:url" content="https://jordan-betz.github.io/wdd230/chamber">
+    <meta name="description" content="WDD 230 - Web Frontend Development Jordan Betz course assignment portal">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta name="author" content="Jordan Betz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <div id="header-title">
+                <h1>
+                    Helena Chamber of Commerce
+                </h1>
+                <p>Dedicated to serving the businesses of the People of Helena</p>
+            </div>
+            <nav id="nav-container">
+                <button id="nav-toggle"></button>
+                <ul id="nav-list">
+                    <li class="nav-item"><a href="/chamber/index.html">Home</a></li>
+                    <li class="nav-item"><a href="/chamber/discover.html">Discover</a></li>
+                    <li class="nav-item"><a href="#">Directory</a></li>
+                    <li class="nav-item"><a href="#">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="main-content">
+            <div id="sidebar">
+                <section>
+                    <h2>About Us</h2>
+                    <aside>
+                        <p>
+                            The oldest chamber in the state of Montana, we have been in operation since 1890. 
+                            We are made up of local citizens dedicated to fostering good business in the Helena area. 
+                            Our Chamber also operates the Convention & Visitor's Bureau (CVB) for the city of Helena. 
+                            We are committed to increasing tourism in Helena, and ensuring local businesses benefit
+                            from tourism to our community.
+                        </p>
+                    </aside>
+                </section>
+                <section>
+                    <h2>Our Philosophy</h2>
+                    <aside>
+                        <h3>Mission</h3>
+                        <p>Provide support to local businesses in the Helena community to spur growth and prosperity for everyone.</p>
+                        <h3>Vision</h3>
+                        <p>Supporter of the small; Community hub of local leaders and citizens</p>
+                    </aside>
+                </section>
+                <section>
+                    <h2>Attractions</h2>
+                    <aside>
+                        <h3>Reeder's Alley</h3>
+                        <p>"The oldest intact piece of early Helena</p>
+                        <p>Home to <a href="https://helenamt.com/">Visit Helena</a></p>
+                    </aside>
+                    <aside>
+                        <h3>The General Mercantile</h3>
+                        <p>"Welcome to the General Mercantile, home of the finest “gold” to be found on Last Chance Gulch!"</p>
+                    </aside>
+                    <aside>
+                        <h3>Steve's Cafe</h3>
+                        <p>"A family owned casual cafe in the heart of Montana."</p>
+                    </aside>
+                </section>
+                <section>
+                    <h2>Trends Report</h2>
+                    <aside>
+                        <a href="https://publuu.com/flip-book/214996/1024778">2023 Trends Report</a>
+                    </aside>
+                </section>
+                <section>
+                    <h2>Last Visit</h2>
+                    <aside>
+                        <p id="visit-display"></p>
+                    </aside>
+                </section>
+            </div>
+            <div class="local-photos">
+                <div class="local-picture">
+                    <img src="images/downtown-helena.webp" alt="Downtown Helena" loading="lazy">
+                    <div class="local-label">
+                        <p>Downtown Helena in Winter</p>
+                    </div>
+                </div>
+                <div class="local-picture">
+                    <img src="images/helena-hike-view.webp" alt="View of a Helena Hiking Trail" loading="lazy">
+                    <div class="local-label">
+                        <p>A hilltop view of the City of Helena</p>
+                    </div>
+                </div>
+                <div class="local-picture">
+                    <img src="images/helena-lewis-clark-national-forest-trail.webp" alt="Lewis and Clark National Forest" loading="lazy">
+                    <div class="local-label">
+                        <p>Nearby Lewis and Clark National Forest</p>
+                    </div>
+                </div>
+                <div class="local-picture">
+                    <img src="images/helena-town-hills.webp" alt="View over hills of Helena" loading="lazy">
+                    <div class="local-label">
+                        <p>The hills overlooking Helena</p>
+                    </div>
+                </div>
+                <div class="local-picture">
+                    <img src="images/The-Alley.webp" alt="Reeder's Alley" loading="lazy">
+                    <div class="local-label">
+                        <p>Historic Reeder's Alley</p>
+                    </div>
+                </div>
+                <div class="local-picture">
+                    <img src="images/general-mercantile.webp" alt="Outside The General Mercantile" loading="lazy">
+                    <div class="local-label">
+                        <p>Helena's "General Mercantile"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section id="footer-address-contact">
+            <div id="footer-address">
+                <h4>Helena</h4>
+                <h4>Chamber of Commerce</h4>
+                <p>225 N, 225 Cruse Ave Suite A</p>
+                <p>Helena, MT 59601</p>
+            </div>
+            <div id="footer-contact">
+                <p>info@helanacc.org</p>
+                <p>+(406)-432-2352</p>
+                <p>Location Map</p>
+            </div>
+        </section>
+        <div id="footer-project-details">
+            <p id="copyright"></p>
+            <p>Jordan Betz</p>
+            <p>WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/discover.js"></script>
+</body>
+</html>
