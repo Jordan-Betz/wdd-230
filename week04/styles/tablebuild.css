@@ -1,0 +1,37 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+th, td {
+    padding: .5em;
+    border-color: grey;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+.head-grid tr th {
+    border: none;
+}
+
+.bg-black {
+    color: white;
+    background-color: black;
+}
+
+.bg-grey {
+    color: white;
+    background-color: #4a4a4a;
+}
+
+.bold {
+    font-weight: bold;
+}
