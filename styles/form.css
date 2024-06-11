@@ -1,0 +1,53 @@
+:root {
+    background-color: aliceblue;
+    color:blue;
+    --required: darkred;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+caption {
+    caption-side: top;
+    font-size: 26px;
+}
+
+span {
+    font-size: 10px;
+    color: var(--required)
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    margin-left: auto;
+}
+
+#rating {
+    width: 180px;
+    margin-bottom: 0;
+}
+
+#range-value-display {
+    font-size: 26px;
+	color: navy;
+}
+
+#range-values {
+    display: flex;
+    width: 195px;
+}
+
+#range-values option {
+    flex: 1 1 auto;
+}
+
+#submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
