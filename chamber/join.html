@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helena Chamber of Commerce</title>
+    <meta property="og:title" content="Helena Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://helenamt.sfo3.digitaloceanspaces.com/2020/08/Say-Hello-2800x1200-1-2800x1200.jpg">
+    <meta property="og:url" content="https://jordan-betz.github.io/wdd230/chamber">
+    <meta name="description" content="WDD 230 - Web Frontend Development Jordan Betz course assignment portal">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta name="author" content="Jordan Betz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <div id="header-title">
+                <h1>
+                    Helena Chamber of Commerce
+                </h1>
+                <p>Dedicated to serving the businesses of the People of Helena</p>
+            </div>
+            <nav id="nav-container">
+                <button id="nav-toggle"></button>
+                <ul id="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="discover.html">Discover</a></li>
+                    <li class="nav-item"><a href="#">Directory</a></li>
+                    <li class="nav-item"><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 id="join-welcome">Join the Chamber!</h1>
+        <form method="get" action="thankyou.html" id="join-form">
+            <label for="first-name" id="first-name-label">
+                <p>First Name <span class="required-field">*</span></p>
+                <input
+                    type="text"
+                    name="firstName"
+                    id="first-name"
+                    required
+                >
+            </label>
+            <label for="last-name" id="last-name-label">
+                <p>Last Name <span class="required-field">*</span></p>
+                <input
+                    type="text"
+                    name="lastName"
+                    id="last-name"
+                    required
+                >
+            </label>
+            <label for="org-position" id="org-position-label">
+                <p>Position in Organization </p>
+                <input
+                    type="text"
+                    name="orgPosition"
+                    id="org-position"
+                    pattern="\b[a-zA-Z\-]{7,}\b"
+                >
+            </label>
+            <label for="email" id="email-label">
+                <p>Email Address <span class="required-field">*</span></p>
+                <input
+                    type="email"
+                    name="emailAddress"
+                    id="email"
+                    placeholder="first.last@email.com"
+                    required
+                >
+            </label>
+            <label for="phone-number" id="phone-number-label">
+                <p>Mobile Phone <span class="required-field">*</span></p>
+                <input
+                    type="telephone"
+                    name="phoneNumber"
+                    id="phone-number"
+                    required
+                >
+            </label>
+            <label for="org-name" id="org-name-label">
+                <p>Business/Organization Name <span class="required-field">*</span></p>
+                <input
+                    type="text"
+                    name="orgName"
+                    id="org-name"
+                    required
+                >
+            </label>
+            <div id="membership-level-container">
+                <p>Membership Level <span class="required-field">*</span></p>
+                <div id="membership-level-row">
+                    <label for="member-level-np">
+                        <p>NP</p>
+                        <input
+                            type="radio"
+                            name="memberLevel"
+                            id="member-level-np"
+                            required
+                        >
+                    </label>
+                    <label for="member-level-bronze">
+                        <p>Bronze</p>
+                        <input
+                            type="radio"
+                            name="memberLevel"
+                            id="member-level-bronze"
+                            required
+                        >
+                    </label>
+                    <label for="member-level-silver">
+                        <p>Silver</p>
+                        <input
+                            type="radio"
+                            name="memberLevel"
+                            id="member-level-silver"
+                            required
+                        >
+                    </label>
+                    <label for="member-level-gold">
+                        <p>Gold</p>
+                        <input
+                            type="radio"
+                            name="memberLevel"
+                            id="member-level-gold"
+                            required
+                        >
+                    </label>
+                </div>
+            </div>
+            <table id="membership-level-table">
+                <thead>
+                    <tr>
+                        <th colspan="5">Membership Levels</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Non-Profit</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td-bold">Local Event Discounts</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td class="td-bold">Taxi Discounts</td>
+                        <td>❌</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                        <tr>
+                        <td class="td-bold">Site Advertising</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td class="td-bold">Homepage Spotlight</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✅</td>
+                    </tr>
+                </tbody>
+            </table>
+            <label for="org-desc" id="org-desc-label">
+                <p>Business/Organization Description</p>
+                <textarea name="orgDesc" id="org-desc"></textarea>
+            </label>
+            <input
+                type="hidden"
+                name="timeOnLoad"
+                id="timestamp"
+            >
+            <label for="submit-button" id="submit-label">
+                <input
+                type="submit"
+                id="submit-button"
+                value="Join"
+                >
+            </label>
+        </form>
+    </main>
+    <footer>
+        <section id="footer-address-contact">
+            <div id="footer-address">
+                <h4>Helena</h4>
+                <h4>Chamber of Commerce</h4>
+                <p>225 N, 225 Cruse Ave Suite A</p>
+                <p>Helena, MT 59601</p>
+            </div>
+            <div id="footer-contact">
+                <p>info@helanacc.org</p>
+                <p>+(406)-432-2352</p>
+                <p>Location Map</p>
+            </div>
+        </section>
+        <div id="footer-project-details">
+            <p id="copyright"></p>
+            <p>Jordan Betz</p>
+            <p>WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>

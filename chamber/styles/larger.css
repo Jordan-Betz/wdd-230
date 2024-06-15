@@ -77,4 +77,27 @@
     #local-photos {
         grid-column: 2;
     }
+    /* Chamber Join Page */
+    #join-form {
+        grid-template-rows: repeat(9, auto);
+    }
+
+    #membership-level-container {
+        grid-row: 7;
+    }
+
+    #membership-level-table {
+        grid-column: 2;
+        grid-row: 7;
+        margin-left: 20px;
+    }
+
+    #org-desc-label {
+        grid-row: 8;
+    }
+    
+    #submit-label {
+        grid-row: 9;
+    }
+    /* Chamber Directory Page */
 }

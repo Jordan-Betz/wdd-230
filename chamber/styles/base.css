@@ -326,3 +326,122 @@ footer {
 #visit-display {
     text-align: center;
 }
+
+/* Chamber Join Page */
+/* HTML Selectors */
+:root {
+    --required: darkred;
+}
+
+/* Class Selectors */
+.required-field {
+    color: var(--required);
+}
+
+/* ID Selectors */
+#join-welcome {
+    color: #18445c;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #18445c;
+}
+
+#join-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(8, auto);
+    width: 80vw;
+    background-color: rgb(96, 225, 224, .6);
+    padding: 20px;
+    margin: auto;
+}
+
+#first-name-label {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#last-name-label {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#org-position-label {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#email-label {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#phone-number-label {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#org-name-label {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#membership-level-container {
+    grid-column: 1;
+    grid-row: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+#membership-level-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#membership-level-table, td {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+#membership-level-table {
+    grid-column: 1;
+    grid-row: 7;
+    margin-top: 20px;
+}
+
+#membership-level-table thead tr {
+    background-color: #60E1E0;
+}
+
+#membership-level-table tbody tr td {
+    text-align: left;
+    background-color: #337ca0;
+    color: white;
+}
+
+#org-desc-label {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+#submit-label {
+    grid-column: 1;
+    grid-row: 10;
+}
+
+/* Thank You Page */
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+}
+
+/* Chamber Directory Page */
+/* HTML Selectors */
+
+/* Class Selectors */
+
+/* ID Selectors */
