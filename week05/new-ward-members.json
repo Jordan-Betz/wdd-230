@@ -1,0 +1,23 @@
+{
+    "familyName": "Name",
+    "moveInDate": "10/19/2024",
+    "numberOfMembers": "",
+    "visited": "No",
+    "members": [
+        {
+            "name": "Bob",
+            "gender": "Male",
+            "birthDate": "2/10/1995"
+        },
+        {
+            "name": "Marie",
+            "gender": "Female",
+            "birthDate": "4/15/1994"
+        },
+        {
+            "name": "Ron",
+            "gender": "Male",
+            "birthDate": "3/12/2023"
+        }
+    ]
+}
