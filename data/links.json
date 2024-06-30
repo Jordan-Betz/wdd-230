@@ -1,0 +1,101 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"Layout"
+                },
+                {
+                    "url":"week01/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"https://codepen.io/Jordan-Betz/pen/qBwvbaw",
+                    "title":"JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url":"week02/design.html",
+                    "title":"Design Principles"
+                },
+                {
+                    "url":"https://codepen.io/Jordan-Betz/pen/ExzaYxN",
+                    "title":"Hamburger Menu"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url":"week03/images/pexels-pixabay-158316.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Loading"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"Responsive Images"
+                },
+                {
+                    "url":"week03/bom.html",
+                    "title":"localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url":"https://codepen.io/Jordan-Betz/pen/abrwaza",
+                    "title":"CSS Pseudo-classes"
+                },
+                {
+                    "url":"week04/images/css-combinators-exercises.webp",
+                    "title":"CSS Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"HTML Tables"
+                },
+                {
+                    "url":"Form-start/index.html",
+                    "title":"HTML Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url":"https://codepen.io/Jordan-Betz/pen/XWwZMJb",
+                    "title":"CSS Pseudo Elements"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"JSON"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"The Fetch API"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather API"
+                }
+            ]
+        }
+    ]
+}
